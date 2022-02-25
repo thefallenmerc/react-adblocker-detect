@@ -39,7 +39,7 @@ export default App;
 
 #### Last known good
 
-react-adblock-detector@1.0.0 has been verified to work on the following browsers with version:
+react-adblock-detector@1.0.1 has been verified to work on the following browsers with version:
 
 |               | Version   |
 | ------------- | --------- |
