@@ -1,4 +1,8 @@
 import { useEffect, useState } from "react";
+/**
+ * A react hook to detect adblockers.
+ * @returns [isAdblockCheckComplete, isAdblockEnabled]
+ */
 export function useAdblockDetector() {
     const [isAdblockDetected, setIsAdblockDetected] = useState(false);
     const [isAdblockCheckComplete, setIsAdblockCheckComplete] = useState(false);

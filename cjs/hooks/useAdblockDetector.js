@@ -2,6 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useAdblockDetector = void 0;
 const react_1 = require("react");
+/**
+ * A react hook to detect adblockers.
+ * @returns [isAdblockCheckComplete, isAdblockEnabled]
+ */
 function useAdblockDetector() {
     const [isAdblockDetected, setIsAdblockDetected] = (0, react_1.useState)(false);
     const [isAdblockCheckComplete, setIsAdblockCheckComplete] = (0, react_1.useState)(false);

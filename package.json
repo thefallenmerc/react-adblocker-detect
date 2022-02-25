@@ -2,7 +2,9 @@
   "name": "react-adblock-detector",
   "version": "1.0.0",
   "description": "React adblock detector",
-  "main": "index.js",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "cjs/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && npm run -s build:cjs && npm run -s build:es",
@@ -32,8 +34,6 @@
   "devDependencies": {
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.5"
   },
