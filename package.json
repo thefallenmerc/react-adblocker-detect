@@ -1,0 +1,44 @@
+{
+  "name": "react-adblock-detector",
+  "version": "1.0.0",
+  "description": "React adblock detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && npm run -s build:cjs && npm run -s build:es",
+    "build:cjs": "tsc -p cjs.tsconfig.json",
+    "build:es": "tsc -p esm.tsconfig.json",
+    "clean": "rimraf cjs esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefallenmerc/react-adblocker-detect.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "adblock",
+    "ad",
+    "adblocker",
+    "block",
+    "detect"
+  ],
+  "author": "Shubham Singh Chahar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thefallenmerc/react-adblocker-detect/issues"
+  },
+  "homepage": "https://github.com/thefallenmerc/react-adblocker-detect#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
+  }
+}
